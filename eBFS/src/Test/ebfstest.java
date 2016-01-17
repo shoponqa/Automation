@@ -44,6 +44,7 @@ public class ebfstest {
 	public void CreateAccount() {
 		objcreateaccount = new CreateAccount(driver);
 		objcreateaccount.ClicksignInLink();
+		System.out.println("Click has been done");
 		objcreateaccount.ClickAccount("InvalidEmail@email");
 //		TakesScreenshot ts=(TakesScreenshot)driver;
 		
